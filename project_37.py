@@ -26,8 +26,8 @@ model = GradientBoostingClassifier(
 )
 model.fit(X_train_pca, y_train)
 y_pred = model.predict(X_test_pca)
-accuracy = accuracy_score(y_test, y_pred) # точность модели
-cm = confusion_matrix(y_test, y_pred) # матрица ошибок
+accuracy = accuracy_score(y_test, y_pred)
+cm = confusion_matrix(y_test, y_pred)
 print("\nМатрица ошибок:")
 print(cm)
 tp = cm[1,1]
