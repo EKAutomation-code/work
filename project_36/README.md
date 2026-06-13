@@ -63,7 +63,7 @@ cd work/project_36
 ### 2. Установите зависимости
 
 ```bash
-pip install requests beautifulsoup4 pandas
+pip install pandas numpy scikit-learn
 ```
 
 ### 3. Запустите скрипт
